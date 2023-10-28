@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    margin:0;
+    padding:0;
+}
+
+.navbar {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    height: 230px;
+}
+
+.logo {
+    display: table-cell;
+}
+
+.logo > img {
+    height: 180px;
+    vertical-align: middle;
+    margin-left: 150px;
+}
+
+.c1 {
+    display: table-cell;
+    text-align: right;
+    padding-left: 40px;
+}
+
+.c1 > h4 {
+    font-size: 26px;
+    font-family: "Inter regular", sans-serif;
+}
+
+.c2 {
+    display: table-cell;
+    text-align: center;
+    padding-left: 35px;
+}
+
+.c2 > h4 {
+    font-size: 26px;
+    font-family: "Inter regular", sans-serif;
+}
+
+.c3 {
+    display: table-cell;
+    text-align: center;
+}
+
+.c3 > h4 {
+    font-size: 26px;
+    font-family: "Inter regular", sans-serif;
+}
+
+.c4 {
+    display: table-cell;
+    text-align: center;
+}
+
+.c4 > img {
+    height: 80px;
+    float: left;
+}
+
+.c4 > h4 {
+    font-size: 22px;
+    font-family: "Inter regular", sans-serif;
+}
+
+.upper-part1 {
+    height: 660px;
+    background-image: url("./images/coverone.jpg");
+}
+
+.upper-part1 > h2 {
+    font-size: 85px;
+    text-align: left;
+    margin-left: 150px;
+    font-family: "Inter Semi Bold", sans-serif;
+}
+
+.upper-part1 > h3 {
+    margin-left: 150px;
+    font-family: "Inter regular", sans-serif;
+    font-size: 35px;
+}
+
+.upper-part2 {
+    height: 200px;
+}
+
+.upper-part2 > h3 {
+    text-align: center;
+    font-family: "Inter regular", sans-serif;
+    font-size: 35px;
+    padding: 50px;
+}
+
+.middle-part-connector {
+    height: 300px;
+    background: black;
+    padding: 150px;
+}
+
+.middle-part-connector > h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.middle-part1 {
+    height: 600px;
+    padding: 100px;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+    background: black;
+}
+
+.middle-part1-left {
+    display: table-cell;
+    text-align: center;
+    background: white;
+    height: 400px;
+    font-family: "Inter regular", sans-serif;
+    font-size: 30px;
+    border-left: 1em solid black;
+    border-right: 1em solid black;
+    border-radius: 55px;
+}
+
+.middle-part1-left > img {
+    height: 250px;
+}
+
+.middle-part1-center {
+    display: table-cell;
+    text-align: center;
+    background: white;
+    height: 400px;
+    font-family: "Inter regular", sans-serif;
+    font-size: 30px;
+    border-left: 1em solid black;
+    border-right: 1em solid black;
+    border-radius: 55px;
+}
+
+.middle-part1-center > img {
+    height: 250px;
+}
+
+.middle-part1-right {
+    padding: 25px;
+    display: table-cell;
+    text-align: center;
+    background: white;
+    height: 400px;
+    font-family: "Inter regular", sans-serif;
+    font-size: 30px;
+    border-left: 1em solid black;
+    border-right: 1em solid black;
+    border-radius: 55px;
+}
+
+.middle-part1-right > img {
+    height: 250px;
+}
+
+.form {
+    height: 200px;
+    background: black;
+}
+
+.forminput {
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.forminput > input {
+    height: 80px;
+    width: 700px;
+    border-left: 1em solid black;
+    border-right: 1em solid black;
+    border-radius: 55px;
+}
+
+.forminput > button {
+    height: 80px;
+    width: 300px;
+    background: #FB5E94;
+    border-left: thick black;
+    border-right: thick black;
+    border-radius: 25px;
+    font-size: 24px;
+}
+
+.forminput > h3 {
+    font-size: 32px;
+}
+
+.middle-part-connector2 {
+    padding: 100px;
+    text-align: center;
+    color: white;
+    background: black;
+    font-family: "Inter regular", sans-serif;
+    font-size: 30px;
+}
+
+.middle-part2-top {
+    padding: 100px;
+    margin-top: 100px;
+}
+
+.middle-part2-top > h2 {
+    margin-left: 400px;
+    font-size: 30px;
+}
+
+.middle-part2-top > h3 {
+    font-size: 22px;
+}
+
+.middle-part2-top > img {
+    float: right;
+    height: 400px;
+}
+
+.middle-part2-bottom {
+    padding: 100px;
+}
+
+.middle-part2-bottom > h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.middle-part2-bottom > h3 {
+    font-size: 22px;
+    margin-left: 800px;
+}
+
+.middle-part2-bottom > ul {
+    margin-left: 800px;
+
+}
+
+.middle-part2-bottom > img {
+    float: left;
+    height: 400px;
+}
+
+.wrapper {
+    width: 500px;
+    margin:0 auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.accordion{
+    width: 500px;
+}
+
+.item {
+    margin-bottom: 5px;
+    padding: 10px 20px;
+}
+
+.title {
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.title > span {
+    float: right;
+}
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    align-items: center;
+    text-align: center;
+}
+
+.content-show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    text-align: center;
+}
+
