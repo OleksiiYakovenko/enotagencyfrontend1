@@ -10,6 +10,11 @@ body {
     padding:0;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .navbar {
     display: table;
     width: 100%;
@@ -216,62 +221,112 @@ body {
 }
 
 .middle-part2-top {
-    padding: 100px;
     margin-top: 100px;
+    height: 820px;
+    background-image: url("./images/covertwo.jpg");
+}
+
+.pink {
+    background: #FB6E97;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
 }
 
 .middle-part2-top > h2 {
-    margin-left: 400px;
-    font-size: 30px;
+    padding-top: 100px;
+    text-align: center;
+    font-family: "Inter Semi Bold", sans-serif;
+    font-size: 50px;
 }
 
 .middle-part2-top > h3 {
-    font-size: 22px;
+    padding-top: 25px;
+    margin-left: 250px;
+    font-family: "Inter medium", sans-serif;
+    font-size: 35px;
 }
 
-.middle-part2-top > img {
-    float: right;
-    height: 400px;
+.middle-part2-top > h4 {
+    margin-left: 250px;
+    font-family: "Inter regular", sans-serif;
+    font-size: 30px;
 }
 
 .middle-part2-bottom {
-    padding: 100px;
+    margin-top: 100px;
+    height: 820px;
+    background-image: url("./images/coverthree.jpg");
+    text-align: right;
+}
+
+.yellow {
+    background: #FAA111;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
 }
 
 .middle-part2-bottom > h2 {
+    padding-top: 100px;
     text-align: center;
-    font-size: 28px;
+    font-family: "Inter Semi Bold", sans-serif;
+    font-size: 50px;
 }
 
 .middle-part2-bottom > h3 {
-    font-size: 22px;
-    margin-left: 800px;
+    padding-top: 25px;
+    margin-right: 250px;
+    font-family: "Inter medium", sans-serif;
+    font-size: 35px;
 }
 
-.middle-part2-bottom > ul {
-    margin-left: 800px;
-
+.middle-part2-bottom > h4 {
+    margin-right: 250px;
+    font-family: "Inter regular", sans-serif;
+    font-size: 30px;
 }
 
-.middle-part2-bottom > img {
-    float: left;
-    height: 400px;
+.FAQ {
+    margin-top: 100px;
+    height: 1000px;
+    background: black;
+}
+
+.faqname {
+    height: 200px;
+    padding-top: 100px;
+}
+
+.faqname > h2 {
+    text-align: center;
+    color: white;
+    font-family: "Inter Semi Bold", sans-serif;
+    font-size: 40px;
 }
 
 .wrapper {
-    width: 500px;
+    width: 1500px;
     margin:0 auto;
     padding-bottom: 50px;
     padding-top: 50px;
+    background: white;
+    text-align: center;
 }
 
 .accordion{
-    width: 500px;
+    width: 1500px;
+
 }
 
 .item {
     margin-bottom: 5px;
     padding: 10px 20px;
+    border: 1em solid black;
 }
 
 .title {

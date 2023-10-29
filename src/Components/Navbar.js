@@ -8,13 +8,13 @@ export default function Navbar(){
                     <img src={require('../images/logo.png' )} alt='loho.png' />
                 </div>
                 <div className='c1'>
-                    <h4>Покупцям</h4>
+                    <h4><a href='#buyer'>Покупцям</a></h4>
                 </div>
                 <div className='c2'>
-                    <h4>Продавцям</h4>
+                    <h4><a href='#seller'>Продавцям</a></h4>
                 </div>
                 <div className='c3'>
-                    <h4>Запитання та відповіді</h4>
+                    <h4><a href='#FAQ'>Запитання та відповіді</a></h4>
                 </div>
                 <div className='c4'>
                     <h4>+38 (093) 962 08 67</h4>

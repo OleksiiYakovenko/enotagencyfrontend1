@@ -14,6 +14,9 @@ export default function FAQ() {
 
     return (
         <div className='FAQ'>
+            <div className='faqname'>
+                <h2 id='FAQ'>ЗАПИТАННЯ ТА ВІДПОВІДІ</h2>
+            </div>
             <div className='wrapper'>
                 <div className='accordion'>
                     {data.map((item, i) => (
@@ -27,12 +30,6 @@ export default function FAQ() {
                             </div>
                         </div>
                 ))}
-            </div>
-            <div className='endword'>
-                <h2>
-                    Звертайтесь до нас, і ми допоможемо вам знайти ідеальну нерухомість в Києві.
-                    Разом ми зробимо ваші нерухомісні мрії реальністю!
-                </h2>
             </div>
         </div>
         </div>
