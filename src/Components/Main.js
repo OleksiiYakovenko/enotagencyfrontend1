@@ -1,6 +1,10 @@
 import React from "react"
+import {useEffect} from 'react';
 
 export default function Main(){
+    useEffect(() => {
+        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+    }, []);
     return (
         <div>
             <div className="upper-part1">
@@ -10,6 +14,13 @@ export default function Main(){
                     <span style={{color: '#FAA111'}}>О</span>селі для<br/>
                     <span style={{color: '#FAA111'}}>Т</span>ебе</h2>
                 <h3><br/>Вітаємо вас у світі нерухомості, <br/> де ваші мрії стають реальністю!</h3>
+            </div>
+            <div className='arrow-up'>
+                <button onClick={() => {
+                    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+                }}>
+                    <i className='material-icons'>arrow_upward</i>
+                </button>
             </div>
             <div className='upper-part2'>
                 <h3>Наша агенція нерухомості в Києві - ваш надійний <br/> партнер у всіх питаннях,

@@ -70,18 +70,32 @@ a {
 }
 
 .c4 > img {
-    height: 80px;
-    float: left;
+    height: 40px;
 }
 
 .c4 > h4 {
-    font-size: 22px;
+    font-size: 26px;
     font-family: "Inter regular", sans-serif;
 }
 
 .upper-part1 {
     height: 660px;
     background-image: url("./images/coverone.jpg");
+}
+
+.arrow-up > button{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #FB6E97;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: black;
+    outline: none;
+    cursor: pointer;
 }
 
 .upper-part1 > h2 {
@@ -200,7 +214,7 @@ a {
 .forminput > button {
     height: 80px;
     width: 300px;
-    background: #FB5E94;
+    background: #FB6E97;
     border-left: thick black;
     border-right: thick black;
     border-radius: 25px;
@@ -244,13 +258,13 @@ a {
 
 .middle-part2-top > h3 {
     padding-top: 25px;
-    margin-left: 250px;
+    margin-left: 150px;
     font-family: "Inter medium", sans-serif;
     font-size: 35px;
 }
 
 .middle-part2-top > h4 {
-    margin-left: 250px;
+    margin-left: 150px;
     font-family: "Inter regular", sans-serif;
     font-size: 30px;
 }
@@ -280,20 +294,20 @@ a {
 
 .middle-part2-bottom > h3 {
     padding-top: 25px;
-    margin-right: 250px;
+    margin-right: 150px;
     font-family: "Inter medium", sans-serif;
     font-size: 35px;
 }
 
 .middle-part2-bottom > h4 {
-    margin-right: 250px;
+    margin-right: 150px;
     font-family: "Inter regular", sans-serif;
     font-size: 30px;
 }
 
 .FAQ {
     margin-top: 100px;
-    height: 1000px;
+    height: 1100px;
     background: black;
 }
 
@@ -304,7 +318,7 @@ a {
 
 .faqname > h2 {
     text-align: center;
-    color: white;
+    color: #FAA111;
     font-family: "Inter Semi Bold", sans-serif;
     font-size: 40px;
 }
@@ -314,42 +328,113 @@ a {
     margin:0 auto;
     padding-bottom: 50px;
     padding-top: 50px;
-    background: white;
     text-align: center;
+    background: black;
+    border-radius: 60px;
+    font-family: "Inter Semi Bold", sans-serif;
 }
 
 .accordion{
     width: 1500px;
-
+    border-radius: 100px;
+    font-family: "Inter Semi Bold", sans-serif;
 }
 
 .item {
-    margin-bottom: 5px;
-    padding: 10px 20px;
+    padding: 20px;
     border: 1em solid black;
+    border-radius: 100px;
+    background: white;
+    font-family: "Inter Semi Bold", sans-serif;
 }
 
 .title {
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    padding-bottom: 10px;
+    font-family: "Inter Semi Bold", sans-serif;
+    font-size: 30px;
+    border-radius: 60px;
+    background: white;
 }
 
 .title > span {
     float: right;
+    border-radius: 100px;
+    font-family: "Inter Semi Bold", sans-serif;
+    color: #FB6E97;
 }
+
 .content {
     max-height: 0;
     overflow: hidden;
-    transition: all 0.5s cubic-bezier(0,1,0,1);
     align-items: center;
     text-align: center;
+    font-family: "Inter Semi Bold", sans-serif;
+    font-size: 26px;
+    border-radius: 60px;
 }
 
 .content-show {
     height: auto;
     max-height: 9999px;
-    transition: all 0.5s cubic-bezier(0,1,0,1);
     text-align: center;
+    font-family: "Inter Semi Bold", sans-serif;
+    font-size: 26px;
+    border-radius: 60px;
 }
 
+.footer-developed {
+    height: 500px;
+    background: #FAA111;
+    display: table;
+}
+
+.footer-left{
+    display: table-cell;
+    width: 951px;
+}
+
+.footer-logo > img{
+    height: 200px;
+    margin-left: 160px;
+}
+
+.footer-icon {
+    margin-left: 200px;
+}
+
+.footer-icon > h3 {
+    font-family: "Inter Semi Bold", sans-serif;
+    font-size: 26px;
+}
+
+.footer-icon > h4 {
+    font-family: "Inter medium", sans-serif;
+    font-size: 24px;
+}
+
+.footer-icon > img {
+    height: 50px;
+}
+
+.footer-right {
+    width: 952px;
+    display: table-cell;
+}
+
+.footer-right-text {
+    padding-left: 350px;
+}
+
+.footer-right-text > h3 {
+    font-size: 28px;
+    font-family: "Inter Semi Bold", sans-serif;
+}
+
+.footer-right-text > h4 {
+    padding-top: 50px;
+    font-size: 20px;
+    font-family: "Inter medium", sans-serif;
+}

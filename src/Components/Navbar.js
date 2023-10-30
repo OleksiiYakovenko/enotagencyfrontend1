@@ -5,7 +5,7 @@ export default function Navbar(){
         <nav>
             <div className='navbar'>
                 <div className='logo'>
-                    <img src={require('../images/logo.png' )} alt='loho.png' />
+                    <img src={require('../images/enotlogo.png' )} alt='loho.png' />
                 </div>
                 <div className='c1'>
                     <h4><a href='#buyer'>Покупцям</a></h4>
@@ -18,7 +18,12 @@ export default function Navbar(){
                 </div>
                 <div className='c4'>
                     <h4>+38 (093) 962 08 67</h4>
-                    <img src={require('../images/sociallogos.png')} alt='sociallogos.png' />
+                    <br/>
+                    <img src={require('../images/faceicon.png' )} alt='pers.png' />
+                    <img src={require('../images/insticon.png' )} alt='pers.png' />
+                    <img src={require('../images/tikicon.png' )} alt='pers.png' />
+                    <img src={require('../images/teleicon.png' )} alt='pers.png' />
+                    <img src={require('../images/vibericon.png' )} alt='pers.png' />
                 </div>
             </div>
         </nav>)
