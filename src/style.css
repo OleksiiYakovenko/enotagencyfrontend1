@@ -29,7 +29,7 @@ a {
 .logo > img {
     height: 180px;
     vertical-align: middle;
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 .c1 {
@@ -263,13 +263,13 @@ a {
 
 .middle-part2-top > h3 {
     padding-top: 25px;
-    margin-left: 150px;
+    margin-left: 100px;
     font-family: "Inter medium", sans-serif;
     font-size: 35px;
 }
 
 .middle-part2-top > h4 {
-    margin-left: 150px;
+    margin-left: 100px;
     font-family: "Inter regular", sans-serif;
     font-size: 30px;
 }
@@ -299,13 +299,13 @@ a {
 
 .middle-part2-bottom > h3 {
     padding-top: 25px;
-    margin-right: 150px;
+    margin-right: 100px;
     font-family: "Inter medium", sans-serif;
     font-size: 35px;
 }
 
 .middle-part2-bottom > h4 {
-    margin-right: 150px;
+    margin-right: 100px;
     font-family: "Inter regular", sans-serif;
     font-size: 30px;
 }
