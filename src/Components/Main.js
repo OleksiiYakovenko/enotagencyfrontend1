@@ -28,7 +28,7 @@ export default function Main(){
             </div>
             <div className='middle-part-connector'>
                 <h1>
-                <span style={{color: '#FAA111'}}>ПРОДАЖ. КУПІВЛЯ.</span>
+                <span style={{color: '#FAA111'}}>ПРОДАЖ. КУПІВЛЯ. </span>
                     <span style={{color: 'white'}}>АРЕНДА.<br/> КОНСТУЛЬТАЦІЇ РІЄЛТОРА КИЇВ</span></h1>
             </div>
             <div className='middle-part1'>
