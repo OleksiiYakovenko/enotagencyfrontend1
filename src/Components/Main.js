@@ -34,19 +34,19 @@ export default function Main(){
             <div className='middle-part1'>
                 <div className='middle-part1-left'>
                     <h3>Експертна команда:</h3>
-                    <img src={require('../images/expteam.png' )} alt='expteam.png' />
+                    <img src={require('../images/expteam.webp' )} alt='expteam' />
                     <h4>Наша агенція має<br/> команду досвідчених<br/> та кваліфікованих фахівців<br/> у галузі
                         нерухомості.</h4>
                 </div>
                 <div className='middle-part1-center'>
                     <h3>Повний спектр послуг:</h3>
-                    <img src={require('../images/fulserv.png' )} alt='fulserv.png' />
+                    <img src={require('../images/fulserv.webp' )} alt='fulserv' />
                     <h4>Ми пропонуємо повний<br/> спектр послуг у сфері<br/> нерухомості, включаючи покупку,
                         продаж та інше.</h4>
                 </div>
                 <div className='middle-part1-right'>
                     <h3>Індивідуальний підхід:</h3>
-                    <img src={require('../images/pers.png' )} alt='pers.png' />
+                    <img src={require('../images/pers.webp' )} alt='pers' />
                     <h4>Ми пропонуємо<br/> персоналізований підхід<br/> до кожного клієнта,<br/> враховуючи їх
                         унікальні<br/> потреби та бажання.</h4>
                 </div>

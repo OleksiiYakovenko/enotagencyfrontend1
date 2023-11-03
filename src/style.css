@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+@font-face {
+    font-display: swap;
+}
+
 body {
     display: flex;
     margin:0;
@@ -28,6 +32,7 @@ a {
 
 .logo > img {
     height: 180px;
+    width: 318px;
     vertical-align: middle;
     margin-left: 50px;
 }
@@ -71,10 +76,12 @@ a {
 
 .c4 > img {
     height: 50px;
+    width: 50px;
 }
 
 .c4 > a > img {
     height: 50px;
+    width: 50px;
 }
 
 .c4 > h4 {
@@ -161,6 +168,7 @@ a {
 
 .middle-part1-left > img {
     height: 250px;
+    width: 250px;
 }
 
 .middle-part1-center {
@@ -177,6 +185,7 @@ a {
 
 .middle-part1-center > img {
     height: 250px;
+    width: 300px;
 }
 
 .middle-part1-right {
@@ -194,6 +203,7 @@ a {
 
 .middle-part1-right > img {
     height: 250px;
+    width: 250px;
 }
 
 .form {
@@ -404,6 +414,7 @@ a {
 
 .footer-logo > img{
     height: 200px;
+    width: 200px;
     margin-left: 160px;
 }
 
