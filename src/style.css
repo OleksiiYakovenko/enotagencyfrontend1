@@ -434,10 +434,12 @@ a {
 
 .footer-icon > img {
     height: 50px;
+    width: 50px;
 }
 
 .footer-icon > a > img {
     height: 50px;
+    width: 50px;
 }
 
 .footer-right {
