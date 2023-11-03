@@ -84,7 +84,7 @@ a {
 
 .upper-part1 {
     height: 660px;
-    background-image: url("./images/coverone.jpg");
+    background-image: url("./images/coverone.webp");
 }
 
 .arrow-up > button{
@@ -241,7 +241,7 @@ a {
 .middle-part2-top {
     margin-top: 100px;
     height: 820px;
-    background-image: url("./images/covertwo.jpg");
+    background-image: url("./images/covertwo.webp");
     background-size: 100% 100%;
 }
 
@@ -277,7 +277,7 @@ a {
 .middle-part2-bottom {
     margin-top: 100px;
     height: 820px;
-    background-image: url("./images/coverthree.jpg");
+    background-image: url("./images/coverthree.webp");
     text-align: right;
     background-size: 100% 100%;
 }
