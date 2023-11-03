@@ -158,12 +158,12 @@ a {
 
 .middle-part1 {
     height: 600px;
-    padding: 40px;
+    padding: 25px;
     display: table;
-    width: 100%;
     table-layout: fixed;
     background: black;
     border-spacing: 10px;
+    border: 1em solid black;
 }
 
 .middle-part1-left {
@@ -245,7 +245,7 @@ a {
 }
 
 .form {
-    height: 200px;
+    height: 180px;
     background: black;
 }
 
