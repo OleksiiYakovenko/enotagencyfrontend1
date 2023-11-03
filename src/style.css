@@ -130,7 +130,7 @@ a {
 }
 
 .middle-part-connector {
-    height: 300px;
+    height: 350px;
     background: black;
     padding: 150px;
 }
@@ -142,24 +142,25 @@ a {
 
 .middle-part1 {
     height: 600px;
-    padding: 100px;
+    padding: 40px;
     display: table;
     width: 100%;
     table-layout: fixed;
-    border-spacing: 10px;
     background: black;
+    border-spacing: 10px;
 }
 
 .middle-part1-left {
+    padding: 25px;
     display: table-cell;
     text-align: center;
     background: white;
     height: 400px;
+    width: 500px;
     font-family: "Inter regular", sans-serif;
-    font-size: 30px;
     border-left: 1em solid black;
     border-right: 1em solid black;
-    border-radius: 12%;
+    border-radius: 10%;
 }
 
 .middle-part1-left > img {
@@ -167,21 +168,38 @@ a {
     width: 250px;
 }
 
+.middle-part1-left > h3 {
+    font-size: 30px;
+}
+
+.middle-part1-left > h4 {
+    font-size: 28px;
+}
+
 .middle-part1-center {
+    padding: 25px;
     display: table-cell;
     text-align: center;
     background: white;
     height: 400px;
+    width: 500px;
     font-family: "Inter regular", sans-serif;
-    font-size: 30px;
     border-left: 1em solid black;
     border-right: 1em solid black;
-    border-radius: 12%;
+    border-radius: 10%;
 }
 
 .middle-part1-center > img {
     height: 250px;
     width: 300px;
+}
+
+.middle-part1-center > h3 {
+    font-size: 30px;
+}
+
+.middle-part1-center > h4 {
+    font-size: 28px;
 }
 
 .middle-part1-right {
@@ -190,16 +208,24 @@ a {
     text-align: center;
     background: white;
     height: 400px;
+    width: 500px;
     font-family: "Inter regular", sans-serif;
-    font-size: 30px;
     border-left: 1em solid black;
     border-right: 1em solid black;
-    border-radius: 12%;
+    border-radius: 10%;
 }
 
 .middle-part1-right > img {
     height: 250px;
     width: 250px;
+}
+
+.middle-part1-right > h3 {
+    font-size: 30px;
+}
+
+.middle-part1-right > h4 {
+    font-size: 28px;
 }
 
 .form {
