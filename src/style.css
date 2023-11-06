@@ -157,7 +157,7 @@ a {
 }
 
 .middle-part1 {
-    height: 6px;
+    height: 600px;
     padding: 25px;
     display: table;
     table-layout: fixed;
@@ -278,7 +278,7 @@ a {
 }
 
 .middle-part-connector2 {
-    padding: 120px;
+    padding: 100px;
     text-align: center;
     color: white;
     background: black;
