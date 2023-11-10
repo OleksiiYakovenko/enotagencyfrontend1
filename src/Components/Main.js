@@ -51,12 +51,6 @@ export default function Main(){
                         унікальні потреби та бажання.</h4>
                 </div>
             </div>
-            <div className='form'>
-                <div className='forminput'>
-                    <input/><button>Консультація</button>
-                    <h3><br/>Або зателефонуйте нам +38 (093) 962 08 67</h3>
-                </div>
-            </div>
             <div>
                 <div className='middle-part-connector2'>
                     <h3>
