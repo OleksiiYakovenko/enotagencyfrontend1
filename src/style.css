@@ -355,7 +355,7 @@ a {
 }
 
 .wrapper {
-    width: 1500px;
+    width: 80%;
     margin:0 auto;
     padding-bottom: 50px;
     padding-top: 50px;
@@ -366,8 +366,8 @@ a {
 }
 
 .accordion{
-    width: 1500px;
-    border-radius: 100px;
+    width: 100%;
+    border-radius: 50px;
     font-family: "Inter Semi Bold", sans-serif;
 }
 
@@ -425,7 +425,7 @@ a {
 
 .footer-left{
     display: table-cell;
-    width: 951px;
+    width: 50%;
 }
 
 .footer-logo > img{
@@ -459,7 +459,7 @@ a {
 }
 
 .footer-right {
-    width: 952px;
+    width: 50%;
     display: table-cell;
 }
 
