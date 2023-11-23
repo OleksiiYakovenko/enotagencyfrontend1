@@ -417,7 +417,6 @@ a {
 }
 
 .footer-developed {
-    height: 500px;
     background: #FAA111;
     display: table;
     width: 100%;
@@ -473,7 +472,7 @@ a {
 }
 
 .footer-right-text > h4 {
-    padding-top: 50px;
+    padding-top: 20px;
     font-size: 20px;
     font-family: "Inter medium", sans-serif;
 }

@@ -15,7 +15,7 @@ export default function Footer(){
                         <h4>+38 (093) 962 08 67</h4>
                         <h4>+38 (068) 150 15 57</h4>
                         <br/>
-                        <img src={require('../images/faceicon.png')} alt='facebook' />
+                        <a href="https://www.facebook.com/profile.php?id=61553533478902&mibextid=LQQJ4d"><img src={require('../images/faceicon.png')} alt='facebook' /></a>
                         <a href="https://www.instagram.com/enotagancy/"><img src={require('../images/insticon.png')} alt='instagram.png' /></a>
                     </div>
                     <br/>
