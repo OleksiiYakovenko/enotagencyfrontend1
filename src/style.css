@@ -24,7 +24,6 @@ body {
     display: flex;
     margin:0;
     padding:0;
-    width: 100%;
 }
 
 a {
@@ -104,7 +103,7 @@ a {
 
 .upper-part1 {
     height: 660px;
-    width: 100%;
+    width: auto;
     background-image: url("./images/coverone.webp");
     background-size: 100% 100%;
 }
@@ -138,7 +137,7 @@ a {
 }
 
 .upper-part2 {
-    width: 100%;
+    width: auto;
     height: 200px;
 }
 
@@ -150,7 +149,7 @@ a {
 }
 
 .middle-part-connector {
-    width: 100%;
+    width: auto;
     height: 350px;
     background: black;
     padding: 150px;
@@ -163,13 +162,13 @@ a {
 
 .middle-part1 {
     height: 600px;
-    padding: 25px;
+    padding: 50px;
     display: table;
     table-layout: fixed;
     background: black;
     border-spacing: 10px;
     border: 1em solid black;
-    width: 100%;
+    width: auto;
 }
 
 .middle-part1-left {
@@ -251,7 +250,7 @@ a {
 }
 
 .middle-part-connector2 {
-    width: 100%;
+    width: auto;
     padding: 100px;
     text-align: center;
     color: white;
@@ -261,7 +260,7 @@ a {
 }
 
 .middle-part2-top {
-    width: 100%;
+    width: auto;
     margin-top: 100px;
     height: 820px;
     background-image: url("./images/covertwo.webp");
@@ -298,7 +297,7 @@ a {
 }
 
 .middle-part2-bottom {
-    width: 100%;
+    width: auto;
     margin-top: 100px;
     height: 820px;
     background-image: url("./images/coverthree.webp");
@@ -336,7 +335,7 @@ a {
 }
 
 .FAQ {
-    width: 100%;
+    width: auto;
     margin-top: 100px;
     height: 1100px;
     background: black;
@@ -458,6 +457,7 @@ a {
 }
 
 .footer-right {
+    padding: 25px;
     width: 50%;
     display: table-cell;
 }
